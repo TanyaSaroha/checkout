@@ -1,0 +1,30 @@
+{
+  "items": {
+    "001": [
+      {
+        "min_quantity": 2,
+        "discount": 0.75,
+        "type": "amount"
+      },
+      {
+        "min_quantity": 3,
+        "discount": 1,
+        "type": "amount"
+      }
+    ]
+  },
+
+  "total": [
+    {
+      "min_amount": 60,
+      "discount": 10,
+      "type": "percentage"
+    },
+    {
+      "min_amount": 80,
+      "discount": 10,
+      "type": "amount"
+    }
+
+  ]
+}

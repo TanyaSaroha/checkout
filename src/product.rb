@@ -1,4 +1,4 @@
-class Item
+class Product
   attr_reader :code, :price
 
   def initialize(code, name, price)

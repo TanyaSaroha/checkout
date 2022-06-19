@@ -21,8 +21,8 @@
       "type": "percentage"
     },
     {
-      "min_amount": 80,
-      "discount": 10,
+      "min_amount": 100,
+      "discount": 15,
       "type": "amount"
     }
 

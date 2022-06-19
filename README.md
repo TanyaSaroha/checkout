@@ -42,6 +42,13 @@ Total price expected: £73.76
 
 ### Proposed Solution in Ruby
 
+#### Running Locally
+- Clone the repo
+- Command to run  
+```
+    ruby src/app.rb
+```
+  - This command will use run program for all three test cases given in problem statement and print output.
 #### Promotional Rule or Discount
 - It can be on items.
 - It can be the total bill.
@@ -62,4 +69,3 @@ Total price expected: £73.76
 - For each checkout we have a list of items. (Objects of Item Class) 
 - We scan items one by one in random order to add them to item list. Same item can be scanned multiple times.
 - Once we are done adding items, we can get total which is calculated by checking the promotions available.
-

@@ -1,7 +1,7 @@
 require_relative 'checkout'
 require_relative 'product'
 
-## Adding products in our 
+## Adding products
 product1 = Product.new('001', 'Silver Earrings', 9.25)
 product2 = Product.new('002', 'Dove Dress in Bamboo', 45.00)
 product3 = Product.new('003', 'Autumn Floral Shirt', 19.95)

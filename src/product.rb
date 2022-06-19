@@ -1,3 +1,5 @@
+# Product - Adds product with code, name & price
+
 class Product
   attr_reader :code, :price
 

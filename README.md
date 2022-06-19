@@ -38,3 +38,28 @@ Total price expected: £36.95
 Basket: 001,002,001,003
 Total price expected: £73.76
 ```
+
+
+### Proposed Solution in Ruby
+
+#### Promotional Rule or Discount
+- It can be on items.
+- It can be the total bill.
+- It can be in percentage or a fixed amount.
+- Multiple promotions can be present.
+- If two or more promotions present for the same item or on total, only one will be applied. Example:
+    - if more than 1 earrings are bought, price drops to 8.50
+    - if more than 3 or more earrings are bought, price drops to 8.25
+    - If someone buys 4 earrings then only second rule will apply.
+
+#### Assumptions
+- Promotions will come in JSON format from an API call.
+- Currently, I have added a JSON file which contains promotions in JSON format.
+- It jsonn be updates to add or remove promos.
+
+#### Flow:
+- For every checkout, create a new instance of checkout class.
+- For each checkout we have a list of items. (Objects of Item Class) 
+- We scan items one by one in random order to add them to item list. Same item can be scanned multiple times.
+- Once we are done adding items, we can get total which is calculated by checking the promotions available.
+
